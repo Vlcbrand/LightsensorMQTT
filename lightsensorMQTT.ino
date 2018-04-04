@@ -13,7 +13,7 @@ byte mac[]= { 0x90,0xA2,0xDA,0x0D,0x01,0x8B};
 EthernetClient ethClient;
 PubSubClient mqttClient(ethClient);
 
-const char *host = "test.mosquitto.org";
+const char *host = "37.97.180.203";
 uint16_t port = 1883;
 const char *topic = "meterkastTVM";
 
